@@ -485,6 +485,9 @@
 		4C2B52D720D2C3180071EBB6 /* DistanceMeasurementAnalysisViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4CCE7BD520D2BD34001238F5 /* DistanceMeasurementAnalysisViewController.swift */; };
 		4C72117020BF444C004A7DD9 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C72116E20BF444C004A7DD9 /* SVProgressAnimatedView.m */; };
 		4C72117320BF4457004A7DD9 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C72117220BF4457004A7DD9 /* SVRadialGradientLayer.m */; };
+		4C77F50020E67DFF00DDF777 /* TransformationsBySuitability.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C77F4FF20E67DFF00DDF777 /* TransformationsBySuitability.storyboard */; };
+		4C77F50220E67E8F00DDF777 /* TransformationsBySuitabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C77F50120E67E8F00DDF777 /* TransformationsBySuitabilityViewController.swift */; };
+		4C77F50420E68D9000DDF777 /* TransformationBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C77F50320E68D9000DDF777 /* TransformationBrowserViewController.swift */; };
 		4CC00F7520C1FAE5004244EF /* StyleWebMapServiceLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC00F7320C1FAE5004244EF /* StyleWebMapServiceLayerViewController.swift */; };
 		4CC00F7620C1FAE5004244EF /* StyleWebMapServiceLayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC00F7420C1FAE5004244EF /* StyleWebMapServiceLayer.storyboard */; };
 		4CCE7BD620D2BD34001238F5 /* DistanceMeasurementAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE7BD520D2BD34001238F5 /* DistanceMeasurementAnalysisViewController.swift */; };
@@ -1080,6 +1083,9 @@
 		4C72116F20BF444C004A7DD9 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		4C72117120BF4456004A7DD9 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		4C72117220BF4457004A7DD9 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		4C77F4FF20E67DFF00DDF777 /* TransformationsBySuitability.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TransformationsBySuitability.storyboard; sourceTree = "<group>"; };
+		4C77F50120E67E8F00DDF777 /* TransformationsBySuitabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationsBySuitabilityViewController.swift; sourceTree = "<group>"; };
+		4C77F50320E68D9000DDF777 /* TransformationBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationBrowserViewController.swift; sourceTree = "<group>"; };
 		4CC00F7320C1FAE5004244EF /* StyleWebMapServiceLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleWebMapServiceLayerViewController.swift; sourceTree = "<group>"; };
 		4CC00F7420C1FAE5004244EF /* StyleWebMapServiceLayer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StyleWebMapServiceLayer.storyboard; sourceTree = "<group>"; };
 		4CCE7BD520D2BD34001238F5 /* DistanceMeasurementAnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceMeasurementAnalysisViewController.swift; sourceTree = "<group>"; };
@@ -2023,6 +2029,7 @@
 				3EF024E51ECBC10600166EC5 /* Format coordinates */,
 				123AC27A20E588A00026A7D6 /* Geodesic operations */,
 				940A73F220E5889B00A06C80 /* Cut geometry */,
+				4C77F4FE20E67D9B00DDF777 /* List transformations by suitability */,
 			);
 			path = Geometry;
 			sourceTree = "<group>";
@@ -2699,6 +2706,16 @@
 			path = Foundation;
 			sourceTree = "<group>";
 		};
+		4C77F4FE20E67D9B00DDF777 /* List transformations by suitability */ = {
+			isa = PBXGroup;
+			children = (
+				4C77F4FF20E67DFF00DDF777 /* TransformationsBySuitability.storyboard */,
+				4C77F50120E67E8F00DDF777 /* TransformationsBySuitabilityViewController.swift */,
+				4C77F50320E68D9000DDF777 /* TransformationBrowserViewController.swift */,
+			);
+			path = "List transformations by suitability";
+			sourceTree = "<group>";
+		};
 		4CC00F7220C1FAA8004244EF /* Style WMS layers */ = {
 			isa = PBXGroup;
 			children = (
@@ -3063,6 +3080,7 @@
 				3E8A05DD1ECE69840032231C /* Bristol.dae in Resources */,
 				3E8D54FB1D53E3F000E628D9 /* ScenePropertiesExpressions.storyboard in Resources */,
 				3ED028FA1B8E3AA500ACA70D /* OnInteractionNoCache.storyboard in Resources */,
+				4C77F50020E67DFF00DDF777 /* TransformationsBySuitability.storyboard in Resources */,
 				D97B7E6E1FD9BFE700E1239D /* Subdivisions.sbx in Resources */,
 				D97B7E621FD9BFE700E1239D /* Subdivisions.sbn in Resources */,
 				3ED028691B8E3A8500ACA70D /* SetViewpoint.storyboard in Resources */,
@@ -3225,6 +3243,7 @@
 				3E8A05CF1ECE68E80032231C /* PlaneStatsViewController.swift in Sources */,
 				3EFDE0F81E36ABB700CBCD92 /* FeatureCollectionLayerQueryVC.swift in Sources */,
 				3EABC7A21DB1793000C161C6 /* StretchRendererSettingsVC.swift in Sources */,
+				4C77F50420E68D9000DDF777 /* TransformationBrowserViewController.swift in Sources */,
 				3E0D3AD41AFD1FF600FC60D6 /* ContentTableViewController.swift in Sources */,
 				4C2B52D620D2C1810071EBB6 /* URL.swift in Sources */,
 				3ED75D041ED39EDF009B1F75 /* FindServiceAreaInteractiveVC.swift in Sources */,
@@ -3394,6 +3413,7 @@
 				3E3B2C1F1BBCA37F00A99C5E /* ContentCollectionViewController.swift in Sources */,
 				3E5E093F1EF4567A00FF3454 /* AddDeleteRelatedFeaturesVC.swift in Sources */,
 				21D919961FE1F368006EA79A /* ExpandableTableViewController.swift in Sources */,
+				4C77F50220E67E8F00DDF777 /* TransformationsBySuitabilityViewController.swift in Sources */,
 				3ED5EB751B740A58009F9B75 /* SegmentedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
